@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="home">
+        <div class="content">
+            <div class="stars"></div>
+            <img class="bgc" src="img/index.gif" width="100%" alt="">
+            <h1 class="title">欢迎来到我的个人网站</h1>
+            <h1 class="titles">我时常听音乐，听各种chill的音乐，生活也就变的chill起来。</h1>
+            <img class="icon" src="img/down.png" alt="">
+            <div class='ribbon'>
+                <a href='./index.html'><span>首页</span></a>
+                <a href='./about.html'><span>关于我</span></a>
+                <a href='./hippop.html'><span>hippop</span></a>
+            </div>
+
+        </div>
+        <div class="icons">
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="img/1.jpg" alt="">
+                <span><header>varporwave</header></span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="img/chill.jpg" alt="">
+                <span><header>chill-hop</header></span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="img/lofi.jpg" alt="">
+                <span><header>lofi-hippop</header></span>
+            </div>
+            <div class="icons_items">
+                <img  class="icons_items_imgs" src="img/jazz.jpg" alt="">
+                <span><header>jazz-hippop</header></span>
+            </div>
+        </div>
+        <div class="introduce">
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="img/vaporwave.jpg" alt="">
+                <span class="introduce_item_title">
+                Vaporwave这种音乐听起来无比的浪漫，仅从你的耳朵就能感觉水汽弥蒙的感觉，正如它的名字蒸気波/蒸汽浪潮。有人说"这是一种听起来感觉像泡在粉红色的大澡堂子里，听着隔壁收音机传来复古动感音乐的刹那。"
+                </span>
+
+            </div>
+            <div class="introduce_item">
+
+                <span class="introduce_item_titles">放松音乐（chill-hop）是松散定义的形式流行音乐，其特征在于缓慢的节奏和放松心情。“冷静音乐”的定义已经发展了数十年，并且通常是指可以被识别为现代轻松听音乐的任何事物。
+				与“冷颤”相关的一些流派包括下节奏，古典，舞蹈，爵士，嘻哈，世界，流行，休闲和环境的。
+                </span>
+                <img class="introduce_item_img" src="img/chill.jpg" alt="">
+            </div>
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="img/lofi1.jpg" alt="">
+                <span class="introduce_item_title">lofi-hiphop在制作方式上大多采用怀旧、低保真混录效果处理的hiphop音乐。这一流派其实很早就有，但是lofi-hiphop的概念开始火起来却是在近几年。一些受到日式jazz-Hop等风格的影响的新一代年轻音乐人和网络制作者，开始在自己作品中尝试融入lofi元素。
+				lofi-hiphop的流行和蒸汽波基本上是一脉相承的，都兴起于网络音乐社区文化和新热的DIY理念。</span>
+            </div>
+            <div class="introduce_item">
+                <span class="introduce_item_titles">爵士说唱（Jazz-Rap）是一种将早期黑人音乐和当今主流音乐风格融合起来的一种尝试，在如今后者逐渐占据绝对地位的同时，它使得前者重新焕发出光芒。
+				爵士说唱的节奏与hip-hop完全一样，其素材和音乐结构取自于cool jazz（冷爵士），soul jazz（灵魂爵士）和hard bop（硬爵士）。<br><br>
+                    <br><br>
+                    
+                </span>
+                <img class="introduce_item_img" src="img/jazz-hippop.jpg" alt="">
+            </div>
+        </div>
+         <audio autoplay="autoplay" id="audio" loop="loop">
+                <source src="./大比良瑞希 - Real Love.mp3" type="audio/MP3">
+               
+        </audio>
+        <img class="music_img" src="./img/music.png" alt="">
+    </div>
+	<div></div><footer >
+		<p>联系我：123456789</p>
+		<p>版权所有 好吃的鱼</p>
+	</footer></div>
+
+</body>
+ <script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);
+    }, false);
+</script> 
+
+</html>
